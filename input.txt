@@ -1,0 +1,13 @@
+//comments
+int main ()
+{
+int a, b;
+double=sum;
+sum= a+b;
+int subtraction=a-b ;
+int multiplication=a*b;
+double division=a/b;
+int mudulus=a%b;
+//comments
+return 0;
+}

@@ -1,0 +1,62 @@
+int	keyword
+main	id	
+(	special symbol 	opening  braces
+)	special symbol 	closing braces
+{	special symbol 	left curly braces
+int	keyword
+a	id	pointer to symbol table entry
+,	special symbol 	comma
+b	id	pointer to symbol table entry
+;	special symbol 	semicolon
+double	keyword
+=	operator	assignment
+sum	id	pointer to symbol table entry
+;	special symbol 	semicolon
+sum	id	pointer to symbol table entry
+=	operator	assignment
+a	id	pointer to symbol table entry
++	operator	addition
+b	id	pointer to symbol table entry
+;	special symbol 	semicolon
+int	keyword
+subtraction	id	pointer to symbol table entry
+=	operator	assignment
+a	id	pointer to symbol table entry
+-	operator	subtraction
+b	id	pointer to symbol table entry
+int	keyword
+multiplication	id	pointer to symbol table entry
+=	operator	assignment
+a	id	pointer to symbol table entry
+*	operator	multiplication
+b	id	pointer to symbol table entry
+;	special symbol 	semicolon
+double	keyword
+division	id	pointer to symbol table entry
+=	operator	assignment
+a	id	pointer to symbol table entry
+/	operator	division
+b	id	pointer to symbol table entry
+;	special symbol 	semicolon
+int	keyword
+mudulus	id	pointer to symbol table entry
+=	operator	assignment
+a	id	pointer to symbol table entry
+%	operator	Modulus
+b	id	pointer to symbol table entry
+;	special symbol 	semicolon
+return	keyword
+0	number	constant
+;	special symbol 	semicolon
+}	special symbol 	right curly braces
+
+
+Symbol  Table
+main	id	0
+a	id	int	1
+b	id	int	2
+sum	id	double	3
+subtraction	id	int	4
+multiplication	id	int	5
+division	id	double	6
+mudulus	id	int	7
